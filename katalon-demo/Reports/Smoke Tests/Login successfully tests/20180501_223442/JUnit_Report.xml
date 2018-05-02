@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login successfully tests" time="29" tests="0" failures="3" errors="0">
+   <testsuite name="Login successfully tests" tests="0" failures="3" errors="0" time="29" timestamp="2018-05-01 22:34:44" hostname="trongbui - fvfwf0d6hv2h" id="Test Suites/Smoke Tests/Login successfully tests">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/trongbui/katalon/sources/katalon-demo/katalon-demo/Reports/Smoke Tests/Login successfully tests/20180501_223442"/>
+         <property name="logFiles" value="/Users/trongbui/katalon/sources/katalon-demo/katalon-demo/Reports/Smoke Tests/Login successfully tests/20180501_223442/execution0.log"/>
+         <property name="attachments" value="/Users/trongbui/katalon/sources/katalon-demo/katalon-demo/Reports/Smoke Tests/Login successfully tests/20180501_223442/1525188896283.png, /Users/trongbui/katalon/sources/katalon-demo/katalon-demo/Reports/Smoke Tests/Login successfully tests/20180501_223442/1525188905258.png, /Users/trongbui/katalon/sources/katalon-demo/katalon-demo/Reports/Smoke Tests/Login successfully tests/20180501_223442/1525188913251.png"/>
+         <property name="hostName" value="trongbui - fvfwf0d6hv2h"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="192.168.1.16"/>
+         <property name="sessionId" value="c7fc7f825c1a361da4aac6f45f7c0702"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/UI Testing/Tests/Login Test/Login successfully with username and password" classname="Test Cases/UI Testing/Tests/Login Test/Login successfully with username and password" status="FAILED">
+         <failure type="FAILED" message="Unable to verify text 'System Dashboard' is present  (Root cause: Text 'System Dashboard' is not present on page )"/>
+         <system-out><![CDATA[2018-05-01 22:34:45 - [TEST_CASE][FAILED] - Test Cases/UI Testing/Tests/Login Test/Login successfully with username and password: Test Cases/UI Testing/Tests/Login Test/Login successfully with username and password FAILED because (of) Unable to verify text 'System Dashboard' is present  (Root cause: Text 'System Dashboard' is not present on page )
+
+2018-05-01 22:34:45 - [TEST_STEP][PASSED] - Start listener action : beforeTestcase: Navigate to 'https://jira-dev.katalon.com/login.jsp' successfully
+
+2018-05-01 22:34:45 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-01 22:34:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-01 22:34:47 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-01 22:34:47 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-01 22:34:47 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://jira-dev.katalon.com/login.jsp' successfully
+
+2018-05-01 22:34:54 - [MESSAGE][PASSED] - Navigate to 'https://jira-dev.katalon.com/login.jsp' successfully
+
+2018-05-01 22:34:55 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Welcome to Katalon JIRA' is present on page 
+
+2018-05-01 22:34:55 - [MESSAGE][PASSED] - Text 'Welcome to Katalon JIRA' is present on page 
+
+2018-05-01 22:34:55 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/UI Testing/Pages/Login Page/loginAs' successfully
+
+2018-05-01 22:34:55 - [TEST_CASE][PASSED] - Test Cases/UI Testing/Pages/Login Page/loginAs: Test Cases/UI Testing/Pages/Login Page/loginAs
+
+2018-05-01 22:34:55 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/UI Test Objects/Pages/Login Page/elUsername'
+
+2018-05-01 22:34:55 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/UI Test Objects/Pages/Login Page/elUsername'
+
+2018-05-01 22:34:55 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/UI Test Objects/Pages/Login Page/elPassword'
+
+2018-05-01 22:34:55 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/UI Test Objects/Pages/Login Page/elPassword'
+
+2018-05-01 22:34:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/UI Test Objects/Pages/Login Page/elLogin' is clicked on
+
+2018-05-01 22:34:56 - [MESSAGE][PASSED] - Object: 'Object Repository/UI Test Objects/Pages/Login Page/elLogin' is clicked on
+
+2018-05-01 22:34:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UI Testing/Pages/Login Page/loginAs' successfully
+
+2018-05-01 22:34:56 - [TEST_STEP][FAILED] - verifyTextPresent: Unable to verify text 'System Dashboard' is present  (Root cause: Text 'System Dashboard' is not present on page )
+
+2018-05-01 22:34:56 - [MESSAGE][FAILED] - Text 'System Dashboard' is not present on page 
+
+2018-05-01 22:34:56 - [MESSAGE][FAILED] - Unable to verify text 'System Dashboard' is present  (Root cause: Text 'System Dashboard' is not present on page )
+[[ATTACHMENT|/Users/trongbui/katalon/sources/katalon-demo/katalon-demo/Reports/Smoke Tests/Login successfully tests/20180501_223442/1525188896283.png]]
+
+2018-05-01 22:34:56 - [TEST_STEP][PASSED] - Start listener action : afterTestcase: Browser is closed
+
+2018-05-01 22:34:56 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-01 22:34:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2018-05-01 22:34:45 - [TEST_CASE][FAILED] - Test Cases/UI Testing/Tests/Login Test/Login successfully with username and password: Test Cases/UI Testing/Tests/Login Test/Login successfully with username and password FAILED because (of) Unable to verify text 'System Dashboard' is present  (Root cause: Text 'System Dashboard' is not present on page )]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UI Testing/Tests/Login Test/Login successfully with username and password" classname="Test Cases/UI Testing/Tests/Login Test/Login successfully with username and password" status="FAILED">
+         <failure type="FAILED" message="Unable to verify text 'System Dashboard' is present  (Root cause: Text 'System Dashboard' is not present on page )"/>
+         <system-out><![CDATA[2018-05-01 22:34:56 - [TEST_CASE][FAILED] - Test Cases/UI Testing/Tests/Login Test/Login successfully with username and password: Test Cases/UI Testing/Tests/Login Test/Login successfully with username and password FAILED because (of) Unable to verify text 'System Dashboard' is present  (Root cause: Text 'System Dashboard' is not present on page )
+
+2018-05-01 22:34:56 - [TEST_STEP][PASSED] - Start listener action : beforeTestcase: Navigate to 'https://jira-dev.katalon.com/login.jsp' successfully
+
+2018-05-01 22:34:56 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-01 22:34:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-01 22:34:57 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-01 22:34:57 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-01 22:34:57 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://jira-dev.katalon.com/login.jsp' successfully
+
+2018-05-01 22:35:04 - [MESSAGE][PASSED] - Navigate to 'https://jira-dev.katalon.com/login.jsp' successfully
+
+2018-05-01 22:35:04 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Welcome to Katalon JIRA' is present on page 
+
+2018-05-01 22:35:04 - [MESSAGE][PASSED] - Text 'Welcome to Katalon JIRA' is present on page 
+
+2018-05-01 22:35:04 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/UI Testing/Pages/Login Page/loginAs' successfully
+
+2018-05-01 22:35:04 - [TEST_CASE][PASSED] - Test Cases/UI Testing/Pages/Login Page/loginAs: Test Cases/UI Testing/Pages/Login Page/loginAs
+
+2018-05-01 22:35:04 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/UI Test Objects/Pages/Login Page/elUsername'
+
+2018-05-01 22:35:04 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/UI Test Objects/Pages/Login Page/elUsername'
+
+2018-05-01 22:35:04 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/UI Test Objects/Pages/Login Page/elPassword'
+
+2018-05-01 22:35:04 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/UI Test Objects/Pages/Login Page/elPassword'
+
+2018-05-01 22:35:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/UI Test Objects/Pages/Login Page/elLogin' is clicked on
+
+2018-05-01 22:35:05 - [MESSAGE][PASSED] - Object: 'Object Repository/UI Test Objects/Pages/Login Page/elLogin' is clicked on
+
+2018-05-01 22:35:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UI Testing/Pages/Login Page/loginAs' successfully
+
+2018-05-01 22:35:05 - [TEST_STEP][FAILED] - verifyTextPresent: Unable to verify text 'System Dashboard' is present  (Root cause: Text 'System Dashboard' is not present on page )
+
+2018-05-01 22:35:05 - [MESSAGE][FAILED] - Text 'System Dashboard' is not present on page 
+
+2018-05-01 22:35:05 - [MESSAGE][FAILED] - Unable to verify text 'System Dashboard' is present  (Root cause: Text 'System Dashboard' is not present on page )
+[[ATTACHMENT|/Users/trongbui/katalon/sources/katalon-demo/katalon-demo/Reports/Smoke Tests/Login successfully tests/20180501_223442/1525188905258.png]]
+
+2018-05-01 22:35:05 - [TEST_STEP][PASSED] - Start listener action : afterTestcase: Browser is closed
+
+2018-05-01 22:35:05 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-01 22:35:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2018-05-01 22:34:56 - [TEST_CASE][FAILED] - Test Cases/UI Testing/Tests/Login Test/Login successfully with username and password: Test Cases/UI Testing/Tests/Login Test/Login successfully with username and password FAILED because (of) Unable to verify text 'System Dashboard' is present  (Root cause: Text 'System Dashboard' is not present on page )]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UI Testing/Tests/Login Test/Login successfully with username and password" classname="Test Cases/UI Testing/Tests/Login Test/Login successfully with username and password" status="FAILED">
+         <failure type="FAILED" message="Unable to verify text 'System Dashboard' is present  (Root cause: Text 'System Dashboard' is not present on page )"/>
+         <system-out><![CDATA[2018-05-01 22:35:05 - [TEST_CASE][FAILED] - Test Cases/UI Testing/Tests/Login Test/Login successfully with username and password: Test Cases/UI Testing/Tests/Login Test/Login successfully with username and password FAILED because (of) Unable to verify text 'System Dashboard' is present  (Root cause: Text 'System Dashboard' is not present on page )
+
+2018-05-01 22:35:05 - [TEST_STEP][PASSED] - Start listener action : beforeTestcase: Navigate to 'https://jira-dev.katalon.com/login.jsp' successfully
+
+2018-05-01 22:35:05 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-01 22:35:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-01 22:35:06 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-01 22:35:06 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-01 22:35:06 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://jira-dev.katalon.com/login.jsp' successfully
+
+2018-05-01 22:35:12 - [MESSAGE][PASSED] - Navigate to 'https://jira-dev.katalon.com/login.jsp' successfully
+
+2018-05-01 22:35:12 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Welcome to Katalon JIRA' is present on page 
+
+2018-05-01 22:35:12 - [MESSAGE][PASSED] - Text 'Welcome to Katalon JIRA' is present on page 
+
+2018-05-01 22:35:12 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/UI Testing/Pages/Login Page/loginAs' successfully
+
+2018-05-01 22:35:12 - [TEST_CASE][PASSED] - Test Cases/UI Testing/Pages/Login Page/loginAs: Test Cases/UI Testing/Pages/Login Page/loginAs
+
+2018-05-01 22:35:12 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/UI Test Objects/Pages/Login Page/elUsername'
+
+2018-05-01 22:35:12 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/UI Test Objects/Pages/Login Page/elUsername'
+
+2018-05-01 22:35:12 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/UI Test Objects/Pages/Login Page/elPassword'
+
+2018-05-01 22:35:12 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/UI Test Objects/Pages/Login Page/elPassword'
+
+2018-05-01 22:35:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/UI Test Objects/Pages/Login Page/elLogin' is clicked on
+
+2018-05-01 22:35:13 - [MESSAGE][PASSED] - Object: 'Object Repository/UI Test Objects/Pages/Login Page/elLogin' is clicked on
+
+2018-05-01 22:35:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UI Testing/Pages/Login Page/loginAs' successfully
+
+2018-05-01 22:35:13 - [TEST_STEP][FAILED] - verifyTextPresent: Unable to verify text 'System Dashboard' is present  (Root cause: Text 'System Dashboard' is not present on page )
+
+2018-05-01 22:35:13 - [MESSAGE][FAILED] - Text 'System Dashboard' is not present on page 
+
+2018-05-01 22:35:13 - [MESSAGE][FAILED] - Unable to verify text 'System Dashboard' is present  (Root cause: Text 'System Dashboard' is not present on page )
+[[ATTACHMENT|/Users/trongbui/katalon/sources/katalon-demo/katalon-demo/Reports/Smoke Tests/Login successfully tests/20180501_223442/1525188913251.png]]
+
+2018-05-01 22:35:13 - [TEST_STEP][PASSED] - Start listener action : afterTestcase: Browser is closed
+
+2018-05-01 22:35:13 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-01 22:35:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2018-05-01 22:35:05 - [TEST_CASE][FAILED] - Test Cases/UI Testing/Tests/Login Test/Login successfully with username and password: Test Cases/UI Testing/Tests/Login Test/Login successfully with username and password FAILED because (of) Unable to verify text 'System Dashboard' is present  (Root cause: Text 'System Dashboard' is not present on page )]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-01 22:34:44 - [TEST_SUITE][FAILED] - Login successfully tests: Test Cases/UI Testing/Tests/Login Test/Login successfully with username and password FAILED because (of) Unable to verify text 'System Dashboard' is present  (Root cause: Text 'System Dashboard' is not present on page )]]></system-out>
+      <system-err><![CDATA[2018-05-01 22:34:44 - [TEST_SUITE][FAILED] - Login successfully tests: Test Cases/UI Testing/Tests/Login Test/Login successfully with username and password FAILED because (of) Unable to verify text 'System Dashboard' is present  (Root cause: Text 'System Dashboard' is not present on page )]]></system-err>
+   </testsuite>
+</testsuites>

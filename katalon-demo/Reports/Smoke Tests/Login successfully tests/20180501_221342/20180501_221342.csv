@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Login successfully tests,Firefox 59.0,,2018-05-01 22:13:44,2018-05-01 22:31:11,17m - 27.866s,FAILED
+,,,,,,
+Test Cases/UI Testing/Tests/Login Test/Login successfully with username and password,Firefox 59.0,,2018-05-01 22:13:44,2018-05-01 22:29:34,15m - 50.272s,FAILED
+Start listener action : beforeTestcase,Firefox 59.0,,2018-05-01 22:13:44,2018-05-01 22:13:57,12.637s,PASSED
+verifyTextPresent,Firefox 59.0,,2018-05-01 22:13:57,2018-05-01 22:13:57,0.133s,PASSED
+callTestCase,Firefox 59.0,,2018-05-01 22:13:57,2018-05-01 22:13:58,0.655s,FAILED
+Start listener action : afterTestcase,Firefox 59.0,,2018-05-01 22:13:58,2018-05-01 22:29:34,15m - 36.710s,PASSED
+,,,,,,
+Test Cases/UI Testing/Tests/Login Test/Login successfully with username and password,Firefox 59.0,,2018-05-01 22:29:34,2018-05-01 22:31:06,1m - 31.836s,FAILED
+Start listener action : beforeTestcase,Firefox 59.0,,2018-05-01 22:29:34,2018-05-01 22:29:43,8.471s,PASSED
+verifyTextPresent,Firefox 59.0,,2018-05-01 22:29:43,2018-05-01 22:29:43,0.118s,PASSED
+callTestCase,Firefox 59.0,,2018-05-01 22:29:43,2018-05-01 22:29:43,0.350s,FAILED
+Start listener action : afterTestcase,Firefox 59.0,,2018-05-01 22:29:43,2018-05-01 22:31:06,1m - 22.880s,PASSED
+,,,,,,
+Test Cases/UI Testing/Tests/Login Test/Login successfully with username and password,Firefox 59.0,,2018-05-01 22:31:06,2018-05-01 22:31:11,5.332s,FAILED
+Start listener action : beforeTestcase,Firefox 59.0,,2018-05-01 22:31:06,2018-05-01 22:31:11,5.145s,PASSED
+verifyTextPresent,Firefox 59.0,,2018-05-01 22:31:11,2018-05-01 22:31:11,0.108s,FAILED
+Start listener action : afterTestcase,Firefox 59.0,,2018-05-01 22:31:11,2018-05-01 22:31:11,0.068s,ERROR

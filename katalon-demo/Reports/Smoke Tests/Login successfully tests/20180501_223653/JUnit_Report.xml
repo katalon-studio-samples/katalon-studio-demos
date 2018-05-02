@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login successfully tests" time="44" tests="3" failures="0" errors="0">
+   <testsuite name="Login successfully tests" tests="3" failures="0" errors="0" time="44" timestamp="2018-05-01 22:36:55" hostname="trongbui - fvfwf0d6hv2h" id="Test Suites/Smoke Tests/Login successfully tests">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/trongbui/katalon/sources/katalon-demo/katalon-demo/Reports/Smoke Tests/Login successfully tests/20180501_223653"/>
+         <property name="logFiles" value="/Users/trongbui/katalon/sources/katalon-demo/katalon-demo/Reports/Smoke Tests/Login successfully tests/20180501_223653/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="trongbui - fvfwf0d6hv2h"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="192.168.1.16"/>
+         <property name="sessionId" value="42fd8174fe37267f0f43084f9571ca15"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/UI Testing/Tests/Login Test/Login successfully with username and password" classname="Test Cases/UI Testing/Tests/Login Test/Login successfully with username and password" status="PASSED">
+         <system-out><![CDATA[2018-05-01 22:36:56 - [TEST_CASE][PASSED] - Test Cases/UI Testing/Tests/Login Test/Login successfully with username and password: Test Cases/UI Testing/Tests/Login Test/Login successfully with username and password
+
+2018-05-01 22:36:56 - [TEST_STEP][PASSED] - Start listener action : beforeTestcase: Navigate to 'https://jira-dev.katalon.com/login.jsp' successfully
+
+2018-05-01 22:36:56 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-01 22:36:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-01 22:36:57 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-01 22:36:58 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-01 22:36:58 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://jira-dev.katalon.com/login.jsp' successfully
+
+2018-05-01 22:37:03 - [MESSAGE][PASSED] - Navigate to 'https://jira-dev.katalon.com/login.jsp' successfully
+
+2018-05-01 22:37:03 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Welcome to Katalon JIRA' is present on page 
+
+2018-05-01 22:37:03 - [MESSAGE][PASSED] - Text 'Welcome to Katalon JIRA' is present on page 
+
+2018-05-01 22:37:03 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/UI Testing/Pages/Login Page/loginAs' successfully
+
+2018-05-01 22:37:03 - [TEST_CASE][PASSED] - Test Cases/UI Testing/Pages/Login Page/loginAs: Test Cases/UI Testing/Pages/Login Page/loginAs
+
+2018-05-01 22:37:03 - [TEST_STEP][PASSED] - setText: Text 'tom' is set on object 'Object Repository/UI Test Objects/Pages/Login Page/elUsername'
+
+2018-05-01 22:37:04 - [MESSAGE][PASSED] - Text 'tom' is set on object 'Object Repository/UI Test Objects/Pages/Login Page/elUsername'
+
+2018-05-01 22:37:04 - [TEST_STEP][PASSED] - setText: Text 'd233kjas' is set on object 'Object Repository/UI Test Objects/Pages/Login Page/elPassword'
+
+2018-05-01 22:37:04 - [MESSAGE][PASSED] - Text 'd233kjas' is set on object 'Object Repository/UI Test Objects/Pages/Login Page/elPassword'
+
+2018-05-01 22:37:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/UI Test Objects/Pages/Login Page/elLogin' is clicked on
+
+2018-05-01 22:37:08 - [MESSAGE][PASSED] - Object: 'Object Repository/UI Test Objects/Pages/Login Page/elLogin' is clicked on
+
+2018-05-01 22:37:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UI Testing/Pages/Login Page/loginAs' successfully
+
+2018-05-01 22:37:08 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'System Dashboard' is present on page 
+
+2018-05-01 22:37:08 - [MESSAGE][PASSED] - Text 'System Dashboard' is present on page 
+
+2018-05-01 22:37:08 - [TEST_STEP][PASSED] - Start listener action : afterTestcase: Browser is closed
+
+2018-05-01 22:37:08 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-01 22:37:09 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UI Testing/Tests/Login Test/Login successfully with username and password" classname="Test Cases/UI Testing/Tests/Login Test/Login successfully with username and password" status="PASSED">
+         <system-out><![CDATA[2018-05-01 22:37:09 - [TEST_CASE][PASSED] - Test Cases/UI Testing/Tests/Login Test/Login successfully with username and password: Test Cases/UI Testing/Tests/Login Test/Login successfully with username and password
+
+2018-05-01 22:37:09 - [TEST_STEP][PASSED] - Start listener action : beforeTestcase: Navigate to 'https://jira-dev.katalon.com/login.jsp' successfully
+
+2018-05-01 22:37:09 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-01 22:37:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-01 22:37:09 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-01 22:37:10 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-01 22:37:10 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://jira-dev.katalon.com/login.jsp' successfully
+
+2018-05-01 22:37:17 - [MESSAGE][PASSED] - Navigate to 'https://jira-dev.katalon.com/login.jsp' successfully
+
+2018-05-01 22:37:17 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Welcome to Katalon JIRA' is present on page 
+
+2018-05-01 22:37:17 - [MESSAGE][PASSED] - Text 'Welcome to Katalon JIRA' is present on page 
+
+2018-05-01 22:37:17 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/UI Testing/Pages/Login Page/loginAs' successfully
+
+2018-05-01 22:37:17 - [TEST_CASE][PASSED] - Test Cases/UI Testing/Pages/Login Page/loginAs: Test Cases/UI Testing/Pages/Login Page/loginAs
+
+2018-05-01 22:37:17 - [TEST_STEP][PASSED] - setText: Text 'tony' is set on object 'Object Repository/UI Test Objects/Pages/Login Page/elUsername'
+
+2018-05-01 22:37:17 - [MESSAGE][PASSED] - Text 'tony' is set on object 'Object Repository/UI Test Objects/Pages/Login Page/elUsername'
+
+2018-05-01 22:37:17 - [TEST_STEP][PASSED] - setText: Text 'd233kjas' is set on object 'Object Repository/UI Test Objects/Pages/Login Page/elPassword'
+
+2018-05-01 22:37:17 - [MESSAGE][PASSED] - Text 'd233kjas' is set on object 'Object Repository/UI Test Objects/Pages/Login Page/elPassword'
+
+2018-05-01 22:37:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/UI Test Objects/Pages/Login Page/elLogin' is clicked on
+
+2018-05-01 22:37:22 - [MESSAGE][PASSED] - Object: 'Object Repository/UI Test Objects/Pages/Login Page/elLogin' is clicked on
+
+2018-05-01 22:37:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UI Testing/Pages/Login Page/loginAs' successfully
+
+2018-05-01 22:37:22 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'System Dashboard' is present on page 
+
+2018-05-01 22:37:22 - [MESSAGE][PASSED] - Text 'System Dashboard' is present on page 
+
+2018-05-01 22:37:22 - [TEST_STEP][PASSED] - Start listener action : afterTestcase: Browser is closed
+
+2018-05-01 22:37:22 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-01 22:37:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UI Testing/Tests/Login Test/Login successfully with username and password" classname="Test Cases/UI Testing/Tests/Login Test/Login successfully with username and password" status="PASSED">
+         <system-out><![CDATA[2018-05-01 22:37:23 - [TEST_CASE][PASSED] - Test Cases/UI Testing/Tests/Login Test/Login successfully with username and password: Test Cases/UI Testing/Tests/Login Test/Login successfully with username and password
+
+2018-05-01 22:37:23 - [TEST_STEP][PASSED] - Start listener action : beforeTestcase: Navigate to 'https://jira-dev.katalon.com/login.jsp' successfully
+
+2018-05-01 22:37:23 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-01 22:37:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-01 22:37:23 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-01 22:37:23 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-01 22:37:23 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://jira-dev.katalon.com/login.jsp' successfully
+
+2018-05-01 22:37:31 - [MESSAGE][PASSED] - Navigate to 'https://jira-dev.katalon.com/login.jsp' successfully
+
+2018-05-01 22:37:31 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Welcome to Katalon JIRA' is present on page 
+
+2018-05-01 22:37:31 - [MESSAGE][PASSED] - Text 'Welcome to Katalon JIRA' is present on page 
+
+2018-05-01 22:37:31 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/UI Testing/Pages/Login Page/loginAs' successfully
+
+2018-05-01 22:37:31 - [TEST_CASE][PASSED] - Test Cases/UI Testing/Pages/Login Page/loginAs: Test Cases/UI Testing/Pages/Login Page/loginAs
+
+2018-05-01 22:37:31 - [TEST_STEP][PASSED] - setText: Text 'bella' is set on object 'Object Repository/UI Test Objects/Pages/Login Page/elUsername'
+
+2018-05-01 22:37:31 - [MESSAGE][PASSED] - Text 'bella' is set on object 'Object Repository/UI Test Objects/Pages/Login Page/elUsername'
+
+2018-05-01 22:37:31 - [TEST_STEP][PASSED] - setText: Text 'd233kjas' is set on object 'Object Repository/UI Test Objects/Pages/Login Page/elPassword'
+
+2018-05-01 22:37:31 - [MESSAGE][PASSED] - Text 'd233kjas' is set on object 'Object Repository/UI Test Objects/Pages/Login Page/elPassword'
+
+2018-05-01 22:37:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/UI Test Objects/Pages/Login Page/elLogin' is clicked on
+
+2018-05-01 22:37:40 - [MESSAGE][PASSED] - Object: 'Object Repository/UI Test Objects/Pages/Login Page/elLogin' is clicked on
+
+2018-05-01 22:37:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UI Testing/Pages/Login Page/loginAs' successfully
+
+2018-05-01 22:37:40 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'System Dashboard' is present on page 
+
+2018-05-01 22:37:40 - [MESSAGE][PASSED] - Text 'System Dashboard' is present on page 
+
+2018-05-01 22:37:40 - [TEST_STEP][PASSED] - Start listener action : afterTestcase: Browser is closed
+
+2018-05-01 22:37:40 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-01 22:37:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-01 22:36:55 - [TEST_SUITE][PASSED] - Login successfully tests: Test Cases/UI Testing/Tests/Login Test/Login successfully with username and password]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

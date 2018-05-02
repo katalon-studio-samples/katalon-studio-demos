@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Login successfully tests,Chrome 66.0.3359.139,,2018-05-01 22:36:55,2018-05-01 22:37:40,44.890s,PASSED
+,,,,,,
+Test Cases/UI Testing/Tests/Login Test/Login successfully with username and password,Chrome 66.0.3359.139,,2018-05-01 22:36:56,2018-05-01 22:37:09,12.900s,PASSED
+Start listener action : beforeTestcase,Chrome 66.0.3359.139,,2018-05-01 22:36:56,2018-05-01 22:37:03,7.417s,PASSED
+verifyTextPresent,Chrome 66.0.3359.139,,2018-05-01 22:37:03,2018-05-01 22:37:03,0.093s,PASSED
+callTestCase,Chrome 66.0.3359.139,,2018-05-01 22:37:03,2018-05-01 22:37:08,5.064s,PASSED
+verifyTextPresent,Chrome 66.0.3359.139,,2018-05-01 22:37:08,2018-05-01 22:37:08,0.080s,PASSED
+Start listener action : afterTestcase,Chrome 66.0.3359.139,,2018-05-01 22:37:08,2018-05-01 22:37:09,0.125s,PASSED
+,,,,,,
+Test Cases/UI Testing/Tests/Login Test/Login successfully with username and password,Chrome 66.0.3359.139,,2018-05-01 22:37:09,2018-05-01 22:37:23,13.999s,PASSED
+Start listener action : beforeTestcase,Chrome 66.0.3359.139,,2018-05-01 22:37:09,2018-05-01 22:37:17,8.085s,PASSED
+verifyTextPresent,Chrome 66.0.3359.139,,2018-05-01 22:37:17,2018-05-01 22:37:17,0.060s,PASSED
+callTestCase,Chrome 66.0.3359.139,,2018-05-01 22:37:17,2018-05-01 22:37:22,5.661s,PASSED
+verifyTextPresent,Chrome 66.0.3359.139,,2018-05-01 22:37:22,2018-05-01 22:37:22,0.076s,PASSED
+Start listener action : afterTestcase,Chrome 66.0.3359.139,,2018-05-01 22:37:22,2018-05-01 22:37:23,0.103s,PASSED
+,,,,,,
+Test Cases/UI Testing/Tests/Login Test/Login successfully with username and password,Chrome 66.0.3359.139,,2018-05-01 22:37:23,2018-05-01 22:37:40,17.565s,PASSED
+Start listener action : beforeTestcase,Chrome 66.0.3359.139,,2018-05-01 22:37:23,2018-05-01 22:37:31,8.351s,PASSED
+verifyTextPresent,Chrome 66.0.3359.139,,2018-05-01 22:37:31,2018-05-01 22:37:31,0.065s,PASSED
+callTestCase,Chrome 66.0.3359.139,,2018-05-01 22:37:31,2018-05-01 22:37:40,8.958s,PASSED
+verifyTextPresent,Chrome 66.0.3359.139,,2018-05-01 22:37:40,2018-05-01 22:37:40,0.078s,PASSED
+Start listener action : afterTestcase,Chrome 66.0.3359.139,,2018-05-01 22:37:40,2018-05-01 22:37:40,0.104s,PASSED

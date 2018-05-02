@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login successfully tests" time="1047" tests="0" failures="3" errors="0">
+   <testsuite name="Login successfully tests" tests="0" failures="3" errors="0" time="1047" timestamp="2018-05-01 22:13:44" hostname="trongbui - fvfwf0d6hv2h" id="Test Suites/Smoke Tests/Login successfully tests">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/trongbui/katalon/sources/katalon-demo/katalon-demo/Reports/Smoke Tests/Login successfully tests/20180501_221342"/>
+         <property name="logFiles" value="/Users/trongbui/katalon/sources/katalon-demo/katalon-demo/Reports/Smoke Tests/Login successfully tests/20180501_221342/execution0.log"/>
+         <property name="attachments" value="/Users/trongbui/katalon/sources/katalon-demo/katalon-demo/Reports/Smoke Tests/Login successfully tests/20180501_221342/1525187637751.png, /Users/trongbui/katalon/sources/katalon-demo/katalon-demo/Reports/Smoke Tests/Login successfully tests/20180501_221342/1525188583461.png"/>
+         <property name="hostName" value="trongbui - fvfwf0d6hv2h"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Firefox 59.0"/>
+         <property name="hostAddress" value="192.168.1.16"/>
+         <property name="sessionId" value="fbb63035-6fd9-1e4b-9a83-9181d2eec449"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/UI Testing/Tests/Login Test/Login successfully with username and password" classname="Test Cases/UI Testing/Tests/Login Test/Login successfully with username and password" status="FAILED">
+         <failure type="FAILED" message="Unable to set encrypted text for object 'Object Repository/UI Test Objects/Pages/Login Page/elPassword' (Root cause: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher)"/>
+         <system-out><![CDATA[2018-05-01 22:13:44 - [TEST_CASE][FAILED] - Test Cases/UI Testing/Tests/Login Test/Login successfully with username and password: Test Cases/UI Testing/Tests/Login Test/Login successfully with username and password FAILED because (of) Unable to set encrypted text for object 'Object Repository/UI Test Objects/Pages/Login Page/elPassword' (Root cause: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher)
+
+2018-05-01 22:13:44 - [TEST_STEP][PASSED] - Start listener action : beforeTestcase: Navigate to 'https://jira-dev.katalon.com/login.jsp' successfully
+
+2018-05-01 22:13:44 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-01 22:13:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-01 22:13:47 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-01 22:13:47 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-01 22:13:47 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://jira-dev.katalon.com/login.jsp' successfully
+
+2018-05-01 22:13:57 - [MESSAGE][PASSED] - Navigate to 'https://jira-dev.katalon.com/login.jsp' successfully
+
+2018-05-01 22:13:57 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Welcome to Katalon JIRA' is present on page 
+
+2018-05-01 22:13:57 - [MESSAGE][PASSED] - Text 'Welcome to Katalon JIRA' is present on page 
+
+2018-05-01 22:13:57 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/UI Testing/Pages/Login Page/loginAs' (Root cause: Call Test Case 'Test Cases/UI Testing/Pages/Login Page/loginAs' failed)
+
+2018-05-01 22:13:57 - [TEST_CASE][FAILED] - Test Cases/UI Testing/Pages/Login Page/loginAs: Test Cases/UI Testing/Pages/Login Page/loginAs FAILED because (of) Unable to set encrypted text for object 'Object Repository/UI Test Objects/Pages/Login Page/elPassword' (Root cause: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher)
+
+2018-05-01 22:13:57 - [TEST_STEP][PASSED] - setText: Text 'tom' is set on object 'Object Repository/UI Test Objects/Pages/Login Page/elUsername'
+
+2018-05-01 22:13:57 - [MESSAGE][PASSED] - Text 'tom' is set on object 'Object Repository/UI Test Objects/Pages/Login Page/elUsername'
+
+2018-05-01 22:13:57 - [TEST_STEP][FAILED] - setEncryptedText: Unable to set encrypted text for object 'Object Repository/UI Test Objects/Pages/Login Page/elPassword' (Root cause: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher)
+
+2018-05-01 22:13:57 - [MESSAGE][FAILED] - Unable to set encrypted text for object 'Object Repository/UI Test Objects/Pages/Login Page/elPassword' (Root cause: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher)
+[[ATTACHMENT|/Users/trongbui/katalon/sources/katalon-demo/katalon-demo/Reports/Smoke Tests/Login successfully tests/20180501_221342/1525187637751.png]]
+
+2018-05-01 22:13:58 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/UI Testing/Pages/Login Page/loginAs' (Root cause: Call Test Case 'Test Cases/UI Testing/Pages/Login Page/loginAs' failed)
+
+2018-05-01 22:13:58 - [TEST_STEP][PASSED] - Start listener action : afterTestcase: Browser is closed
+
+2018-05-01 22:13:58 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-01 22:29:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2018-05-01 22:13:44 - [TEST_CASE][FAILED] - Test Cases/UI Testing/Tests/Login Test/Login successfully with username and password: Test Cases/UI Testing/Tests/Login Test/Login successfully with username and password FAILED because (of) Unable to set encrypted text for object 'Object Repository/UI Test Objects/Pages/Login Page/elPassword' (Root cause: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UI Testing/Tests/Login Test/Login successfully with username and password" classname="Test Cases/UI Testing/Tests/Login Test/Login successfully with username and password" status="FAILED">
+         <failure type="FAILED" message="Unable to set encrypted text for object 'Object Repository/UI Test Objects/Pages/Login Page/elPassword' (Root cause: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher)"/>
+         <system-out><![CDATA[2018-05-01 22:29:34 - [TEST_CASE][FAILED] - Test Cases/UI Testing/Tests/Login Test/Login successfully with username and password: Test Cases/UI Testing/Tests/Login Test/Login successfully with username and password FAILED because (of) Unable to set encrypted text for object 'Object Repository/UI Test Objects/Pages/Login Page/elPassword' (Root cause: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher)
+
+2018-05-01 22:29:34 - [TEST_STEP][PASSED] - Start listener action : beforeTestcase: Navigate to 'https://jira-dev.katalon.com/login.jsp' successfully
+
+2018-05-01 22:29:34 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-01 22:29:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-01 22:29:36 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-01 22:29:37 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-01 22:29:37 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://jira-dev.katalon.com/login.jsp' successfully
+
+2018-05-01 22:29:43 - [MESSAGE][PASSED] - Navigate to 'https://jira-dev.katalon.com/login.jsp' successfully
+
+2018-05-01 22:29:43 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Welcome to Katalon JIRA' is present on page 
+
+2018-05-01 22:29:43 - [MESSAGE][PASSED] - Text 'Welcome to Katalon JIRA' is present on page 
+
+2018-05-01 22:29:43 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/UI Testing/Pages/Login Page/loginAs' (Root cause: Call Test Case 'Test Cases/UI Testing/Pages/Login Page/loginAs' failed)
+
+2018-05-01 22:29:43 - [TEST_CASE][FAILED] - Test Cases/UI Testing/Pages/Login Page/loginAs: Test Cases/UI Testing/Pages/Login Page/loginAs FAILED because (of) Unable to set encrypted text for object 'Object Repository/UI Test Objects/Pages/Login Page/elPassword' (Root cause: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher)
+
+2018-05-01 22:29:43 - [TEST_STEP][PASSED] - setText: Text 'tony' is set on object 'Object Repository/UI Test Objects/Pages/Login Page/elUsername'
+
+2018-05-01 22:29:43 - [MESSAGE][PASSED] - Text 'tony' is set on object 'Object Repository/UI Test Objects/Pages/Login Page/elUsername'
+
+2018-05-01 22:29:43 - [TEST_STEP][FAILED] - setEncryptedText: Unable to set encrypted text for object 'Object Repository/UI Test Objects/Pages/Login Page/elPassword' (Root cause: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher)
+
+2018-05-01 22:29:43 - [MESSAGE][FAILED] - Unable to set encrypted text for object 'Object Repository/UI Test Objects/Pages/Login Page/elPassword' (Root cause: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher)
+[[ATTACHMENT|/Users/trongbui/katalon/sources/katalon-demo/katalon-demo/Reports/Smoke Tests/Login successfully tests/20180501_221342/1525188583461.png]]
+
+2018-05-01 22:29:43 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/UI Testing/Pages/Login Page/loginAs' (Root cause: Call Test Case 'Test Cases/UI Testing/Pages/Login Page/loginAs' failed)
+
+2018-05-01 22:29:43 - [TEST_STEP][PASSED] - Start listener action : afterTestcase: Browser is closed
+
+2018-05-01 22:29:43 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-01 22:31:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2018-05-01 22:29:34 - [TEST_CASE][FAILED] - Test Cases/UI Testing/Tests/Login Test/Login successfully with username and password: Test Cases/UI Testing/Tests/Login Test/Login successfully with username and password FAILED because (of) Unable to set encrypted text for object 'Object Repository/UI Test Objects/Pages/Login Page/elPassword' (Root cause: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UI Testing/Tests/Login Test/Login successfully with username and password" classname="Test Cases/UI Testing/Tests/Login Test/Login successfully with username and password" status="FAILED">
+         <failure type="FAILED" message="Unable to verify text 'Welcome to Katalon JIRA' is present  (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'FVFWF0D6HV2H', ip: '2405:4800:529f:2871:f092:36ed:f205:7d8d', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 3095, moz:profile: /var/folders/42/25_dz67d0s9..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.5.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: fbb63035-6fd9-1e4b-9a83-9181d2eec449
+*** Element info: {Using=tag name, value=body})"/>
+         <system-out><![CDATA[2018-05-01 22:31:06 - [TEST_CASE][FAILED] - Test Cases/UI Testing/Tests/Login Test/Login successfully with username and password: Test Cases/UI Testing/Tests/Login Test/Login successfully with username and password FAILED because (of) Unable to verify text 'Welcome to Katalon JIRA' is present  (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'FVFWF0D6HV2H', ip: '2405:4800:529f:2871:f092:36ed:f205:7d8d', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 3095, moz:profile: /var/folders/42/25_dz67d0s9..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.5.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: fbb63035-6fd9-1e4b-9a83-9181d2eec449
+*** Element info: {Using=tag name, value=body})
+
+2018-05-01 22:31:06 - [TEST_STEP][PASSED] - Start listener action : beforeTestcase: Navigate to 'https://jira-dev.katalon.com/login.jsp' successfully
+
+2018-05-01 22:31:06 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-01 22:31:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-01 22:31:08 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-01 22:31:09 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-01 22:31:09 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://jira-dev.katalon.com/login.jsp' successfully
+
+2018-05-01 22:31:11 - [MESSAGE][PASSED] - Navigate to 'https://jira-dev.katalon.com/login.jsp' successfully
+
+2018-05-01 22:31:11 - [TEST_STEP][FAILED] - verifyTextPresent: Unable to verify text 'Welcome to Katalon JIRA' is present  (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'FVFWF0D6HV2H', ip: '2405:4800:529f:2871:f092:36ed:f205:7d8d', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 3095, moz:profile: /var/folders/42/25_dz67d0s9..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.5.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: fbb63035-6fd9-1e4b-9a83-9181d2eec449
+*** Element info: {Using=tag name, value=body})
+
+2018-05-01 22:31:11 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-05-01 22:31:11 - [MESSAGE][FAILED] - Unable to verify text 'Welcome to Katalon JIRA' is present  (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'FVFWF0D6HV2H', ip: '2405:4800:529f:2871:f092:36ed:f205:7d8d', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 3095, moz:profile: /var/folders/42/25_dz67d0s9..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.5.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: fbb63035-6fd9-1e4b-9a83-9181d2eec449
+*** Element info: {Using=tag name, value=body})
+
+2018-05-01 22:31:11 - [TEST_STEP][ERROR] - Start listener action : afterTestcase: Unable to close browser (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'FVFWF0D6HV2H', ip: '2405:4800:529f:2871:f092:36ed:f205:7d8d', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 3095, moz:profile: /var/folders/42/25_dz67d0s9..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.5.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: fbb63035-6fd9-1e4b-9a83-9181d2eec449)
+
+2018-05-01 22:31:11 - [TEST_STEP][ERROR] - closeBrowser: Unable to close browser (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'FVFWF0D6HV2H', ip: '2405:4800:529f:2871:f092:36ed:f205:7d8d', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 3095, moz:profile: /var/folders/42/25_dz67d0s9..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.5.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: fbb63035-6fd9-1e4b-9a83-9181d2eec449)
+
+2018-05-01 22:31:11 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-05-01 22:31:11 - [MESSAGE][FAILED] - Unable to close browser (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'FVFWF0D6HV2H', ip: '2405:4800:529f:2871:f092:36ed:f205:7d8d', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 3095, moz:profile: /var/folders/42/25_dz67d0s9..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.5.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: fbb63035-6fd9-1e4b-9a83-9181d2eec449)
+
+2018-05-01 22:31:11 - [MESSAGE][ERROR] - Unable to close browser (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'FVFWF0D6HV2H', ip: '2405:4800:529f:2871:f092:36ed:f205:7d8d', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 3095, moz:profile: /var/folders/42/25_dz67d0s9..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.5.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: fbb63035-6fd9-1e4b-9a83-9181d2eec449)]]></system-out>
+         <system-err><![CDATA[2018-05-01 22:31:06 - [TEST_CASE][FAILED] - Test Cases/UI Testing/Tests/Login Test/Login successfully with username and password: Test Cases/UI Testing/Tests/Login Test/Login successfully with username and password FAILED because (of) Unable to verify text 'Welcome to Katalon JIRA' is present  (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'FVFWF0D6HV2H', ip: '2405:4800:529f:2871:f092:36ed:f205:7d8d', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 3095, moz:profile: /var/folders/42/25_dz67d0s9..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.5.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: fbb63035-6fd9-1e4b-9a83-9181d2eec449
+*** Element info: {Using=tag name, value=body})]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-01 22:13:44 - [TEST_SUITE][FAILED] - Login successfully tests: Test Cases/UI Testing/Tests/Login Test/Login successfully with username and password FAILED because (of) Unable to set encrypted text for object 'Object Repository/UI Test Objects/Pages/Login Page/elPassword' (Root cause: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher)]]></system-out>
+      <system-err><![CDATA[2018-05-01 22:13:44 - [TEST_SUITE][FAILED] - Login successfully tests: Test Cases/UI Testing/Tests/Login Test/Login successfully with username and password FAILED because (of) Unable to set encrypted text for object 'Object Repository/UI Test Objects/Pages/Login Page/elPassword' (Root cause: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher)]]></system-err>
+   </testsuite>
+</testsuites>

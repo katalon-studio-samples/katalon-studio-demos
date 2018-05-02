@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Login successfully tests (one failed),Chrome 66.0.3359.139,,2018-05-01 22:42:15,2018-05-01 22:42:50,34.892s,FAILED
+,,,,,,
+Test Cases/UI Testing/Tests/Login Test/Login successfully with username and password,Chrome 66.0.3359.139,,2018-05-01 22:42:15,2018-05-01 22:42:29,13.305s,PASSED
+Start listener action : beforeTestcase,Chrome 66.0.3359.139,,2018-05-01 22:42:15,2018-05-01 22:42:23,8.078s,PASSED
+verifyTextPresent,Chrome 66.0.3359.139,,2018-05-01 22:42:23,2018-05-01 22:42:24,0.084s,PASSED
+callTestCase,Chrome 66.0.3359.139,,2018-05-01 22:42:24,2018-05-01 22:42:28,4.816s,PASSED
+verifyTextPresent,Chrome 66.0.3359.139,,2018-05-01 22:42:28,2018-05-01 22:42:28,0.070s,PASSED
+Start listener action : afterTestcase,Chrome 66.0.3359.139,,2018-05-01 22:42:28,2018-05-01 22:42:29,0.109s,PASSED
+,,,,,,
+Test Cases/UI Testing/Tests/Login Test/Login successfully with username and password,Chrome 66.0.3359.139,,2018-05-01 22:42:29,2018-05-01 22:42:42,13.381s,PASSED
+Start listener action : beforeTestcase,Chrome 66.0.3359.139,,2018-05-01 22:42:29,2018-05-01 22:42:37,8.231s,PASSED
+verifyTextPresent,Chrome 66.0.3359.139,,2018-05-01 22:42:37,2018-05-01 22:42:37,0.056s,PASSED
+callTestCase,Chrome 66.0.3359.139,,2018-05-01 22:42:37,2018-05-01 22:42:42,4.898s,PASSED
+verifyTextPresent,Chrome 66.0.3359.139,,2018-05-01 22:42:42,2018-05-01 22:42:42,0.074s,PASSED
+Start listener action : afterTestcase,Chrome 66.0.3359.139,,2018-05-01 22:42:42,2018-05-01 22:42:42,0.101s,PASSED
+,,,,,,
+Test Cases/UI Testing/Tests/Login Test/Login successfully with username and password,Chrome 66.0.3359.139,,2018-05-01 22:42:42,2018-05-01 22:42:50,7.765s,FAILED
+Start listener action : beforeTestcase,Chrome 66.0.3359.139,,2018-05-01 22:42:42,2018-05-01 22:42:48,6.181s,PASSED
+verifyTextPresent,Chrome 66.0.3359.139,,2018-05-01 22:42:48,2018-05-01 22:42:48,0.059s,PASSED
+callTestCase,Chrome 66.0.3359.139,,2018-05-01 22:42:48,2018-05-01 22:42:49,0.824s,PASSED
+verifyTextPresent,Chrome 66.0.3359.139,,2018-05-01 22:42:49,2018-05-01 22:42:50,0.590s,FAILED
+Start listener action : afterTestcase,Chrome 66.0.3359.139,,2018-05-01 22:42:50,2018-05-01 22:42:50,0.101s,PASSED
