@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>loginAsEncryptedAccount</name>
+   <name>User should login successfully with a valid account</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>461c9fde-f8e7-44eb-b75d-9f39fe68aec0</testCaseGuid>
+   <testCaseGuid>e05736fd-4fb6-42ab-af78-05c054541e2b</testCaseGuid>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>6e462452-218f-4dbc-be8c-68954f4a4b66</id>
+      <id>db0d2634-eb7c-41f6-900b-212e3b6baa42</id>
       <masked>false</masked>
       <name>username</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>7638025a-52ba-43fb-af5c-4e23b4acec4f</id>
+      <id>a5ee436b-09a4-4881-bfb1-21ebd667f963</id>
       <masked>false</masked>
-      <name>encryptedPassword</name>
+      <name>password</name>
    </variable>
 </TestCaseEntity>

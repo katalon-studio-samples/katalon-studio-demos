@@ -18,11 +18,13 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
-WebUI.verifyTextPresent('Welcome to Katalon JIRA', false)
+WebUI.callTestCase(findTestCase('UI Testing/Pages/Login Page/Login with username and encrypted password'), [('username') : GlobalVariable.username
+        , ('encryptedPassword') : GlobalVariable.encrypted_password], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('UI Testing/Pages/Login Page/loginAs'), [('username') : username, ('password') : password], 
+WebUI.callTestCase(findTestCase('UI Testing/Pages/Master Page/Open the Create Issue form'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('UI Testing/Pages/Create Issue Page/Create a new issue with these information'), [('project') : project, ('issueType') : issueType], 
     FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyTextPresent('System Dashboard', false)
 

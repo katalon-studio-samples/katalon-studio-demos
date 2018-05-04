@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>//input[@id = 'login-form-username']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

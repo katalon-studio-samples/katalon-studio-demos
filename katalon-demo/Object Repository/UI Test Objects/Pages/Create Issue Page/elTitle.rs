@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>//div[@id='create-issue-dialog']//h2[count(. | //*[@ref_element = 'Object Repository/UI Test Objects/Pages/Create Issue Page/elRoot' and @ref_element_is_shadow_root = 'true']) = count(//*[@ref_element = 'Object Repository/UI Test Objects/Pages/Create Issue Page/elRoot' and @ref_element_is_shadow_root = 'true'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//h2</value>
+      <value>//div[@id='create-issue-dialog']//h2</value>
    </webElementProperties>
 </WebElementEntity>

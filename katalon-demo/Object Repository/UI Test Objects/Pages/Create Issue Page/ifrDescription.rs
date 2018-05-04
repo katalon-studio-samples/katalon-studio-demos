@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>elRoot</name>
+   <name>ifrDescription</name>
    <tag></tag>
-   <elementGuidId>7c1cb16f-e2ac-49c6-b068-0382c8a976e9</elementGuidId>
+   <elementGuidId>d0349482-8a1a-4d67-baa4-993069c29be7</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[@id='create-issue-dialog']</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,8 +15,8 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath</name>
+      <name>id</name>
       <type>Main</type>
-      <value>//div[@id='create-issue-dialog']</value>
+      <value>mce_7_ifr</value>
    </webElementProperties>
 </WebElementEntity>

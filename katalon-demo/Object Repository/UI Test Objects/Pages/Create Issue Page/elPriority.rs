@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>elRoot</name>
+   <name>elPriority</name>
    <tag></tag>
-   <elementGuidId>7c1cb16f-e2ac-49c6-b068-0382c8a976e9</elementGuidId>
+   <elementGuidId>35a3725f-7838-4a8a-87f3-64eec0da3a24</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[@id='create-issue-dialog']</value>
+         <value>//*[@ref_element = 'Object Repository/UI Test Objects/Pages/Create Issue Page/elRoot' and @ref_element_is_shadow_root = 'true']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[@id='create-issue-dialog']</value>
+      <value>//div[@id='create-issue-dialog']//input[@id=//label[starts-with(., 'Priority')]/@for]</value>
    </webElementProperties>
 </WebElementEntity>

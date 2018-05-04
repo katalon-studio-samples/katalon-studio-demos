@@ -19,10 +19,17 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.verifyTextPresent('Welcome to Katalon JIRA', false)
+WebUI.waitForElementVisible(findTestObject('UI Test Objects/Pages/Create Issue Page/elRoot'), 0)
 
-WebUI.callTestCase(findTestCase('UI Testing/Pages/Login Page/loginAsEncryptedAccount'), [('username') : GlobalVariable.username
-        , ('encryptedPassword') : GlobalVariable.password], FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('UI Test Objects/Pages/Create Issue Page/elTitle'), 'Create Issue')
 
-WebUI.verifyTextPresent('System Dashboard', false)
+CustomKeywords.'com.jira.components.JSelect.selectByText'('Project', project)
+
+CustomKeywords.'com.jira.components.JSelect.selectByText'('Issue Type', issueType)
+
+
+String time = new Date().getTime();
+String summary = 
+
+WebUI.setText(findTestObject('UI Test Objects/Pages/Create Issue Page/elSummary'), )
 

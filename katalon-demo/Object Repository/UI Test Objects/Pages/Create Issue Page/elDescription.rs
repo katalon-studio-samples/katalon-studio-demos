@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>elRoot</name>
+   <name>elDescription</name>
    <tag></tag>
-   <elementGuidId>7c1cb16f-e2ac-49c6-b068-0382c8a976e9</elementGuidId>
+   <elementGuidId>979f419b-a3aa-4a76-8bf4-6fda5b71ad42</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[@id='create-issue-dialog']</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,8 +15,15 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath</name>
+      <name>id</name>
       <type>Main</type>
-      <value>//div[@id='create-issue-dialog']</value>
+      <value>tinymce</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/UI Test Objects/Pages/Create Issue Page/ifrDescription</value>
    </webElementProperties>
 </WebElementEntity>
