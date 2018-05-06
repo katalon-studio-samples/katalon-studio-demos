@@ -19,4 +19,25 @@
       <masked>false</masked>
       <name>issueType</name>
    </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8bfdba0a-4fd3-4426-b8d2-4267d25e620e</id>
+      <masked>false</masked>
+      <name>priority</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>cc799174-58c8-427f-a3da-f0cdaf193492</id>
+      <masked>false</masked>
+      <name>description</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b20f3ced-5860-4868-8654-697d38608d57</id>
+      <masked>false</masked>
+      <name>summary</name>
+   </variable>
 </TestCaseEntity>

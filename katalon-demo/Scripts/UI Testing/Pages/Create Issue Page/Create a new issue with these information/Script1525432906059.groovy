@@ -19,7 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('UI Test Objects/Pages/Create Issue Page/elRoot'), 0)
+WebUI.waitForElementVisible(findTestObject('UI Test Objects/Pages/Create Issue Page/elRoot'), GlobalVariable.element_timeout)
 
 WebUI.verifyElementText(findTestObject('UI Test Objects/Pages/Create Issue Page/elTitle'), 'Create Issue')
 
@@ -27,9 +27,27 @@ CustomKeywords.'com.jira.components.JSelect.selectByText'('Project', project)
 
 CustomKeywords.'com.jira.components.JSelect.selectByText'('Issue Type', issueType)
 
+String time = new Date().getTime()
 
-String time = new Date().getTime();
-String summary = 
+String fixed_summary = String.format('%s %s', summary, time)
 
-WebUI.setText(findTestObject('UI Test Objects/Pages/Create Issue Page/elSummary'), )
+WebUI.waitForElementClickable(findTestObject('UI Test Objects/Pages/Create Issue Page/elSummary'), GlobalVariable.element_timeout)
+
+WebUI.setText(findTestObject('UI Test Objects/Pages/Create Issue Page/elSummary'), fixed_summary)
+
+CustomKeywords.'com.jira.components.JSelect.selectByText'('Priority', priority)
+
+WebUI.waitForElementPresent(findTestObject('UI Test Objects/Pages/Create Issue Page/ifrDescription'), GlobalVariable.element_timeout)
+
+WebUI.switchToFrame(findTestObject('UI Test Objects/Pages/Create Issue Page/ifrDescription'), GlobalVariable.element_timeout)
+
+WebUI.setText(findTestObject('UI Test Objects/Pages/Create Issue Page/elDescription'), description)
+
+WebUI.switchToDefaultContent()
+
+WebUI.waitForElementClickable(findTestObject('UI Test Objects/Pages/Create Issue Page/elCreate'), GlobalVariable.element_timeout)
+
+WebUI.click(findTestObject('UI Test Objects/Pages/Create Issue Page/elCreate'))
+
+WebUI.waitForElementClickable(findTestObject('UI Test Objects/Pages/Master Page/elFlag', [('summary') : fixed_summary]), GlobalVariable.element_timeout)
 

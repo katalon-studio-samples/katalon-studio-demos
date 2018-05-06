@@ -25,6 +25,6 @@ WebUI.callTestCase(findTestCase('UI Testing/Pages/Login Page/Login with username
 
 WebUI.callTestCase(findTestCase('UI Testing/Pages/Master Page/Open the Create Issue form'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('UI Testing/Pages/Create Issue Page/Create a new issue with these information'), [('project') : project, ('issueType') : issueType], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('UI Testing/Pages/Create Issue Page/Create a new issue with these information'), [('project') : project
+        , ('issueType') : issueType, ('priority') : priority, ('description') : description, ('summary') : summary], FailureHandling.STOP_ON_FAILURE)
 

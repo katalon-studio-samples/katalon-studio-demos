@@ -19,4 +19,25 @@
       <masked>false</masked>
       <name>issueType</name>
    </variable>
+   <variable>
+      <defaultValue>'Low'</defaultValue>
+      <description></description>
+      <id>bba64aa6-0c6f-48f6-9c70-e9b5c15d2110</id>
+      <masked>false</masked>
+      <name>priority</name>
+   </variable>
+   <variable>
+      <defaultValue>'As a User, I want to be able to create a new tickets, so that I can keep track all tasks'</defaultValue>
+      <description></description>
+      <id>3420820c-45c5-4cf3-a50f-05ec17025041</id>
+      <masked>false</masked>
+      <name>description</name>
+   </variable>
+   <variable>
+      <defaultValue>'Ticket created at'</defaultValue>
+      <description></description>
+      <id>cba50a02-866d-4cec-8ae2-76f54a55bb74</id>
+      <masked>false</masked>
+      <name>summary</name>
+   </variable>
 </TestCaseEntity>

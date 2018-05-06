@@ -1,29 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>ifrDescription</name>
+   <name>elIssueLink</name>
    <tag></tag>
-   <elementGuidId>d0349482-8a1a-4d67-baa4-993069c29be7</elementGuidId>
+   <elementGuidId>3ee13857-09c7-4ef6-9a65-8aba4c54a0f6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//iframe[starts-with(@id, 'mce_')]</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>starts with</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>mce_</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>tag</name>
+      <name>xpath</name>
       <type>Main</type>
-      <value>iframe</value>
+      <value>//div[@class='simple-issue-list']//ol[@class='issue-list']//li[@title='${issue_summary}']//a[@class='splitview-issue-link']</value>
    </webElementProperties>
 </WebElementEntity>

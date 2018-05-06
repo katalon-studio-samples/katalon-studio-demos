@@ -19,6 +19,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementClickable(findTestObject('UI Test Objects/Pages/Master Page/Header/elHeaderItems', [('header_item') : 'Create']), 0)
-WebUI.click(findTestObject('UI Test Objects/Pages/Master Page/Header/elHeaderItems', [('header_item') : 'Create']))
+WebUI.waitForElementClickable(findTestObject('UI Test Objects/Pages/Master Page/Header/elHeaderItems', [('header_item') : 'Issues']), GlobalVariable.element_timeout)
+WebUI.click(findTestObject('UI Test Objects/Pages/Master Page/Header/elHeaderItems', [('header_item') : 'Issues']))
 
+WebUI.waitForElementClickable(findTestObject('UI Test Objects/Pages/Master Page/Header/elHeaderIssuesItems', [('issue_item') : 'Search for issues']), GlobalVariable.element_timeout)
+WebUI.click(findTestObject('UI Test Objects/Pages/Master Page/Header/elHeaderIssuesItems', [('issue_item') : 'Search for issues']))

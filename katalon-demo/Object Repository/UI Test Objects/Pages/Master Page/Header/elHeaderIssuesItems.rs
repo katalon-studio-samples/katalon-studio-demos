@@ -1,29 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>ifrDescription</name>
+   <name>elHeaderIssuesItems</name>
    <tag></tag>
-   <elementGuidId>d0349482-8a1a-4d67-baa4-993069c29be7</elementGuidId>
+   <elementGuidId>729ccbaf-c27e-405e-952e-74e11e8ba6df</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//iframe[starts-with(@id, 'mce_')]</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>starts with</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>mce_</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>tag</name>
+      <name>xpath</name>
       <type>Main</type>
-      <value>iframe</value>
+      <value>//div[@id='find_link-content']//a[.='${issue_item}']</value>
    </webElementProperties>
 </WebElementEntity>

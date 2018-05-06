@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>User should be able to search issues with an jql</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>69e8e88e-1987-4cb9-9d59-85dfaa10bd73</testCaseGuid>
+   <variable>
+      <defaultValue>'Ticket created at 1525625154785'</defaultValue>
+      <description></description>
+      <id>ff616f97-8cc9-414d-939a-b6878e3db8fb</id>
+      <masked>false</masked>
+      <name>issue_summary</name>
+   </variable>
+   <variable>
+      <defaultValue>'Bug'</defaultValue>
+      <description></description>
+      <id>fffd3b3f-15a1-44b6-a423-6b0756cdefcc</id>
+      <masked>false</masked>
+      <name>issue_type</name>
+   </variable>
+</TestCaseEntity>

@@ -19,6 +19,18 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementClickable(findTestObject('UI Test Objects/Pages/Master Page/Header/elHeaderItems', [('header_item') : 'Create']), 0)
-WebUI.click(findTestObject('UI Test Objects/Pages/Master Page/Header/elHeaderItems', [('header_item') : 'Create']))
+WebUI.callTestCase(findTestCase('UI Testing/Pages/Login Page/Login with username and encrypted password'), [('username') : GlobalVariable.username
+        , ('encryptedPassword') : GlobalVariable.encrypted_password], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('UI Testing/Pages/Master Page/Open the Search for issue page'), [:], FailureHandling.STOP_ON_FAILURE)
+
+jql = String.format('text ~ "%s"', issue_summary)
+
+WebUI.callTestCase(findTestCase('UI Testing/Pages/Search Issue Page/Search issues using jql'), [('jql') : jql], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('UI Testing/Pages/Search Issue Page/Simple Issue List/Open the issue having specified summary'), 
+    [('issue_summary') : issue_summary], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('UI Testing/Pages/Search Issue Page/Issue Content/Verify opening issue content'), [('issue_summary') : issue_summary
+        , ('issue_type') : issue_type], FailureHandling.STOP_ON_FAILURE)
 

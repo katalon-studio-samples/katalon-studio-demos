@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>elCreate</name>
+   <name>elIssueLinkSummary</name>
    <tag></tag>
-   <elementGuidId>374ff5af-ab4f-4cde-8d5a-123a5350acf3</elementGuidId>
+   <elementGuidId>b1c14821-aa6a-4034-a87f-292d78445eda</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//a[.='Create']</value>
+      <value>//div[@class='simple-issue-list']//ol[@class='issue-list']//li[@title='${issue_summary}']//span[@class='issue-link-summary']</value>
    </webElementProperties>
 </WebElementEntity>

@@ -19,6 +19,14 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementClickable(findTestObject('UI Test Objects/Pages/Master Page/Header/elHeaderItems', [('header_item') : 'Create']), 0)
-WebUI.click(findTestObject('UI Test Objects/Pages/Master Page/Header/elHeaderItems', [('header_item') : 'Create']))
+WebUI.callTestCase(findTestCase('UI Testing/Pages/Search Issue Page/Open the Advance search mode'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForElementClickable(findTestObject('UI Test Objects/Pages/Search Issue Page/Search Navigator/elAdvanceSearchJQL'), 
+    GlobalVariable.element_timeout)
+
+WebUI.setText(findTestObject('UI Test Objects/Pages/Search Issue Page/Search Navigator/elAdvanceSearchJQL'), jql)
+
+WebUI.waitForElementClickable(findTestObject('UI Test Objects/Pages/Search Issue Page/Search Navigator/elSearch'), GlobalVariable.element_timeout)
+
+WebUI.click(findTestObject('UI Test Objects/Pages/Search Issue Page/Search Navigator/elSearch'))
 

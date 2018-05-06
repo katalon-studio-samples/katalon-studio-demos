@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>//*[@id = 'tinymce']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -22,8 +22,8 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>ref_element</name>
+      <name>tag</name>
       <type>Main</type>
-      <value>Object Repository/UI Test Objects/Pages/Create Issue Page/ifrDescription</value>
+      <value>body</value>
    </webElementProperties>
 </WebElementEntity>
