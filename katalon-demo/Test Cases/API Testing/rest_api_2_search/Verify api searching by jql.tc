@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify api searching by jql</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ee379562-ec1b-4ab9-bf71-d4c238102c09</testCaseGuid>
+   <variable>
+      <defaultValue>'Ticket created at 1525625154785'</defaultValue>
+      <description></description>
+      <id>97b11e0b-3b14-4c40-a3a5-0b21ad38a81e</id>
+      <masked>false</masked>
+      <name>issue_summary</name>
+   </variable>
+   <variable>
+      <defaultValue>'Bug'</defaultValue>
+      <description></description>
+      <id>e7db9c91-e11d-4875-83d8-189101f5a1f5</id>
+      <masked>false</masked>
+      <name>issue_type</name>
+   </variable>
+</TestCaseEntity>

@@ -19,18 +19,28 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+import groovy.json.JsonSlurper
+import  java.net.URLEncoder
+import com.kms.katalon.core.testobject.ResponseObject as ResponseObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+
+// Open UI
 WebUI.callTestCase(findTestCase('UI Testing/Pages/Login Page/Login with username and encrypted password'), [('username') : GlobalVariable.username
-        , ('encryptedPassword') : GlobalVariable.encrypted_password], FailureHandling.STOP_ON_FAILURE)
-
+	, ('encryptedPassword') : GlobalVariable.encrypted_password], FailureHandling.STOP_ON_FAILURE)
 WebUI.callTestCase(findTestCase('UI Testing/Pages/Master Page/Open the Search for issue page'), [:], FailureHandling.STOP_ON_FAILURE)
-
 jql = String.format('text~"%s"', issue_summary)
-
 WebUI.callTestCase(findTestCase('UI Testing/Pages/Search Issue Page/Search issues using jql'), [('jql') : jql], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('UI Testing/Pages/Search Issue Page/Simple Issue List/Open the issue having specified summary'),
+[('issue_summary') : issue_summary], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('UI Testing/Pages/Search Issue Page/Simple Issue List/Open the issue having specified summary'), 
-    [('issue_summary') : issue_summary], FailureHandling.STOP_ON_FAILURE)
+// Get Information from WS
+jql = String.format('text~"%s"', URLEncoder.encode(issue_summary, "UTF-8"))
+ResponseObject response = WS.sendRequest(findTestObject('API Test Objects/rest_api_2_search/Search by jql', [('jql') : jql]))
+def jsonSlurper = new JsonSlurper()
+def jsonResponse = jsonSlurper.parseText(response.getResponseText())
+summary = jsonResponse.issues[0].fields.summary
+type = jsonResponse.issues[0].fields.issuetype.name
 
-WebUI.callTestCase(findTestCase('UI Testing/Pages/Search Issue Page/Issue Content/Verify opening issue content'), [('issue_summary') : issue_summary
-        , ('issue_type') : issue_type], FailureHandling.STOP_ON_FAILURE)
-
+// Verify UI displayed information and data returned from WS
+WebUI.callTestCase(findTestCase('UI Testing/Pages/Search Issue Page/Issue Content/Verify opening issue content'), [('issue_summary') : summary
+	, ('issue_type') : type], FailureHandling.STOP_ON_FAILURE)

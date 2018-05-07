@@ -26,3 +26,5 @@ hs_err_pid*
 /katalon-demo/Libs/internal/GlobalVariable.groovy
 /katalon-demo/Libs/TempTestCase*.groovy
 /katalon-demo/Reports
+/katalon-demo/settings/internal/com.kms.katalon.integration.analytics.properties
+/katalon-demo/settings/internal/com.kms.katalon.integration.jira.properties

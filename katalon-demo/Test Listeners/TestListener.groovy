@@ -29,6 +29,10 @@ class TestListener {
 	 */
 	@BeforeTestCase
 	def beforeTestcase(TestCaseContext testCaseContext) {
+		if (testCaseContext.getTestCaseId().contains("API Testing")) {
+			return;
+		}
+
 		WebUI.openBrowser('');
 		WebUI.maximizeWindow();
 		WebUI.navigateToUrl(GlobalVariable.url);
@@ -40,6 +44,9 @@ class TestListener {
 	 */
 	@AfterTestCase
 	def afterTestcase(TestCaseContext testCaseContext) {
+		if (testCaseContext.getTestCaseId().contains("API Testing")) {
+			return;
+		}
 		WebUI.closeBrowser();
 	}
 }

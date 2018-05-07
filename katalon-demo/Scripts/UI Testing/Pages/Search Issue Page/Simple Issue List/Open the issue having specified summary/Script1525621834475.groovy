@@ -21,8 +21,8 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.waitForElementClickable(findTestObject('UI Test Objects/Pages/Search Issue Page/Simple Issue List/elIssueLink', [('issue_summary') : issue_summary]), 
     GlobalVariable.element_timeout)
+WebUI.delay(3)
 
 WebUI.click(findTestObject('UI Test Objects/Pages/Search Issue Page/Simple Issue List/elIssueLink', [('issue_summary') : issue_summary]))
-
-WebUI.delay(5)
+WebUI.delay(3)
 
