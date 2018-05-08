@@ -6,7 +6,7 @@ Katalon Studio's demo projects.
 	Application Under Test (AUT): Jira System
 	Programming languages: Groovy & Java
 	Practices: Page Object Model (POM) and Behavior Driven Development (BDD) mind set	
-``
+```
 
 ![screenshot](https://github.com/trongbui/katalon-demo/blob/master/testing%20approaches/Testing%20Project%20Structure.png)
 
