@@ -4,7 +4,7 @@
    <name>Login successfully tests</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-05-01T22:36:53</lastRun>
+   <lastRun>2018-05-08T10:46:02</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

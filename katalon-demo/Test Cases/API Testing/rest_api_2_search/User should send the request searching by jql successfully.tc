@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>User should be able to search issues with an jql</name>
+   <name>User should send the request searching by jql successfully</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>69e8e88e-1987-4cb9-9d59-85dfaa10bd73</testCaseGuid>
+   <testCaseGuid>99dd1fa4-09cc-43d3-9c00-f58006dda56e</testCaseGuid>
    <variable>
       <defaultValue>'Ticket created at 1525625154785'</defaultValue>
       <description></description>
-      <id>ff616f97-8cc9-414d-939a-b6878e3db8fb</id>
+      <id>09dce364-dd30-481c-90ed-3b3af264e4d7</id>
       <masked>false</masked>
       <name>issue_summary</name>
    </variable>
