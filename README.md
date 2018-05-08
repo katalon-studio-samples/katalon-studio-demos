@@ -7,7 +7,8 @@ Katalon Studio's demo projects.
 	Programming languages: Groovy & Java
 	Practices: Page Object Model (POM) and Behavior Driven Development (BDD) mind set	
 ``
-![alt text](https://github.com/trongbui/katalon-demo/blob/master/testing%20approaches/Testing%20Project%20Structure.png?raw=true)
+
+![screenshot](https://github.com/trongbui/katalon-demo/blob/master/testing%20approaches/Testing%20Project%20Structure.png)
 
 ## Getting Started
 
