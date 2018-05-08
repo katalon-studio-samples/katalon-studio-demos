@@ -1,4 +1,4 @@
-# Project Title
+# Katalon Studio's demo projects
 
 Katalon Studio's demo projects.
 
