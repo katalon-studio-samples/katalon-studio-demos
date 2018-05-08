@@ -2,11 +2,11 @@
 
 Katalon Studio's demo projects.
 
-'''
+```
 	Application Under Test (AUT): Jira System
 	Programming languages: Groovy & Java
 	Practices: Page Object Model (POM) and Behavior Driven Development (BDD) mind set	
-'''
+```
 
 ## Getting Started
 
@@ -37,7 +37,8 @@ Step 3:
 	- Update configuration for integration: Jira, Katalon Analytics
 
 Step 4: 
-	- Update Jira account information at Profiles with following key 		- url
+	- Update Jira account information at Profiles with following key 		
+		- url
 		- username
 		- encrypted_password
 		- element_timeout
