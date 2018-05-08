@@ -19,6 +19,6 @@ public class JWait {
 	public static Wait<WebDriver> wait = new FluentWait<>(driver)
 	.withTimeout(GlobalVariable.element_timeout, SECONDS)
 	.pollingEvery(1, SECONDS)
-//	.ignoring(NotFoundException.class)
+	.ignoring(NotFoundException.class)
 	.withMessage("Waiting for... ");
 }

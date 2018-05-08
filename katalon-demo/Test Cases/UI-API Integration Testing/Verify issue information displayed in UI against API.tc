@@ -4,11 +4,11 @@
    <name>Verify issue information displayed in UI against API</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>ef27bbc7-e6f1-4a93-9335-5002d5ff738c</testCaseGuid>
+   <testCaseGuid>dcb41735-28ab-4684-b39f-541dce302bea</testCaseGuid>
    <variable>
       <defaultValue>'Ticket created at 1525625154785'</defaultValue>
       <description></description>
-      <id>2ff1bf70-e93d-48e7-b7e2-1b0a9332f52e</id>
+      <id>82317389-e050-4af6-a657-acefb80dc1a7</id>
       <masked>false</masked>
       <name>issue_summary</name>
    </variable>
