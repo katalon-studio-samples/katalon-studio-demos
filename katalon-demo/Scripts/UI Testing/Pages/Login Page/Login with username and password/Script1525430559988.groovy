@@ -19,9 +19,14 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+'Input username'
 WebUI.setText(findTestObject('UI Test Objects/Pages/Login Page/elUsername'), username)
 
+'Input password'
 WebUI.setText(findTestObject('UI Test Objects/Pages/Login Page/elPassword'), password)
 
+'Click Login button'
 WebUI.click(findTestObject('UI Test Objects/Pages/Login Page/elLogin'))
+
+WebUI.acceptAlert()
 

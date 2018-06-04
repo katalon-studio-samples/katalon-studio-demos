@@ -49,5 +49,6 @@ WebUI.waitForElementClickable(findTestObject('UI Test Objects/Pages/Create Issue
 
 WebUI.click(findTestObject('UI Test Objects/Pages/Create Issue Page/elCreate'))
 
-WebUI.waitForElementClickable(findTestObject('UI Test Objects/Pages/Master Page/elFlag', [('summary') : fixed_summary]), GlobalVariable.element_timeout)
+WebUI.waitForElementClickable(findTestObject('UI Test Objects/Pages/Master Page/elFlag', [('summary') : fixed_summary]), 
+    GlobalVariable.element_timeout)
 
