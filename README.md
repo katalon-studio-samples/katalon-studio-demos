@@ -14,7 +14,7 @@ Katalon Studio's demo projects.
 		- UI & API Integration Testing
 ```
 
-![screenshot](https://github.com/trongbui/katalon-demo/blob/master/testing%20approaches/Testing%20Project%20Structure.png)
+![screenshot](https://github.com/katalon-studio/katalon-demo/blob/master/testing%20approaches/Testing%20Project%20Structure.png)
 
 ## Getting Started
 
